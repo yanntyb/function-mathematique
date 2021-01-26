@@ -3,6 +3,8 @@
 echo abs(-12) . "<br>";
 echo ceil(-11.3) . "<br>";
 echo floor(11.5) . "<br>";
+
+//Verifie si le nombre est fini;
 if(is_nan(1.1)){
     echo "not a number";
 }
